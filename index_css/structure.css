@@ -1,0 +1,88 @@
+.inputTarefa{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#txt{
+    border-radius: 5px;
+    height: 60px;
+    font-size: 30px;
+    width: 80%;
+    padding-left: 5%;
+    border: 1px solid rgb(red, green, blue);
+
+}
+
+#btn-tarefa{
+    border-radius: 5px;
+    height: 60px;
+    font-size: 30px;
+    background-color: rgb(51, 105, 51);
+    cursor: pointer;
+}
+
+.table{
+    display: flex;
+    flex-direction: column;
+}
+
+/* #table-content{
+    display: flex;
+    flex-direction: column;
+} */
+
+.table-content{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.time{
+    flex: 35%;
+    align-self: center;
+}
+
+#activits{
+    flex: 55%;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(74, 37, 134);
+    align-self: center;
+    
+    
+}
+
+.btn-del-did{
+    flex: 10%;
+    border-left: 1px solid black;
+    justify-content: space-between;
+    flex: auto;
+}
+
+.delete{
+   background-color: rgb(141, 49, 49);
+   border-style: none;
+   width: 100%;
+   cursor: pointer;
+}
+
+.delete:hover{
+    background-color: red;
+}
+
+.check{
+    background-color: rgb(81, 128, 81);
+    border-style: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+.check:hover{
+    background-color: green;
+}
+

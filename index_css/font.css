@@ -1,0 +1,16 @@
+.font-to-do-list{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(192, 53, 53);
+}
+
+body{
+    background-color:  hsl(176, 36%, 41%);
+}
+
+.font-title{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
